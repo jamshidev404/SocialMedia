@@ -198,3 +198,12 @@ main .container .left .profile {
  .left .sidebar .active h3 {
   color: var(--color-primary);
 }
+
+.left .sidebar .active::before {
+  content: "";
+  display: block;
+  width: 0.5rem;
+  height: 100%;
+  position: absolute;
+  background: var(--color-primary);
+}
