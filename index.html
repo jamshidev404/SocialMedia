@@ -548,37 +548,41 @@
             </div>
 
             <!------------- END FEED ------------->
-
-
           </div>
           <!--------------- FEEDS OF END --------------->
         </div>
-          <!------------- END OF MIDDLE ---------------->
+        <!------------- END OF MIDDLE ---------------->
 
         <!------------- RIGHT  ---------------->
         <div class="right">
           <div class="messages">
             <div class="heading">
-              <h4>Messages</h4><i class="uil uil-edit"></i>
+              <h4>Messages</h4>
+              <i class="uil uil-edit"></i>
             </div>
             <!-------------- SEARCH BAR ---------------->
             <div class="search-bar">
               <i class="uil uil-search"></i>
-              <input type="search" placeholder="Search messages" id="message-search">
+              <input
+                type="search"
+                placeholder="Search messages"
+                id="message-search"
+              />
             </div>
 
-              <!----------------- MESSAGES CATEGORY ------------------------------->
-            
-              <div class="category">
-                <h6 class="active">Primary</h6>
-                <h6>General</h6>
-                <h6 class="message-requests">Requests(7)</h6>
-              </div>
-            
-              <!------------------- MESSAGE ---------------------->
+            <!----------------- MESSAGES CATEGORY ------------------------------->
+
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">Requests(7)</h6>
+            </div>
+
+            <!------------------- MESSAGE ---------------------->
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-13.jpg">
+                <img src="./images/profile-13.jpg" />
+                <div class="active"></div>
               </div>
               <div class="message-body">
                 <h5>Akmal Jo'rayev</h5>
@@ -588,7 +592,7 @@
 
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-14.jpg">
+                <img src="./images/profile-14.jpg" />
               </div>
               <div class="message-body">
                 <h5>Suxrob Alimov</h5>
@@ -598,7 +602,7 @@
 
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-15.jpg">
+                <img src="./images/profile-15.jpg" />
               </div>
               <div class="message-body">
                 <h5>Alisher Hakimov</h5>
@@ -608,7 +612,8 @@
 
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-16.jpg">
+                <img src="./images/profile-16.jpg" />
+                <div class="active"></div>
               </div>
               <div class="message-body">
                 <h5>Ro'za Begmatova</h5>
@@ -618,7 +623,7 @@
 
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-17.jpg">
+                <img src="./images/profile-17.jpg" />
               </div>
               <div class="message-body">
                 <h5>Charos Ne'matova</h5>
@@ -628,7 +633,7 @@
 
             <div class="message">
               <div class="profile-photo">
-                <img src="./images/profile-18.jpg">
+                <img src="./images/profile-18.jpg" />
               </div>
               <div class="message-body">
                 <h5>Nodir Hoshimov</h5>
@@ -637,33 +642,116 @@
             </div>
           </div>
           <!----------------------- END OF MESSAGE -------------------------->
-          
-          
+
           <!----------------------- FRIEND REQUESTS -------------------------->
 
           <div class="friend-requests">
             <h4>Requests</h4>
+
             <div class="request">
               <div class="info">
                 <div class="profile-photo">
-                  <img src="./images/profile-13.jpg">
+                  <img src="./images/profile-13.jpg" />
                 </div>
                 <div>
                   <h5>Akmal Jo'rayev</h5>
                   <p class="text-muted">8 mutual friends</p>
-                  <div class="action">
-                    <button class="btn btn-primary">Accept</button>            
-                    <button class="btn">Decline</button>            
-                  </div>
                 </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+
+            <div class="request">
+              <div class="info">
+                <div class="profile-photo">
+                  <img src="./images/profile-13.jpg" />
+                </div>
+                <div>
+                  <h5>Akmal Jo'rayev</h5>
+                  <p class="text-muted">8 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
+              </div>
+            </div>
+
+            <div class="request">
+              <div class="info">
+                <div class="profile-photo">
+                  <img src="./images/profile-13.jpg" />
+                </div>
+                <div>
+                  <h5>Akmal Jo'rayev</h5>
+                  <p class="text-muted">8 mutual friends</p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn">Decline</button>
               </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
     </main>
+
+    <!----------------------- THEME CUSTOMIZATION -------------------------->
+    <div class="customize-theme">
+      <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your front size, color and background</p>
+
+        <!----------------- FONT SIZE ------------------>
+        <div class="font-size">
+          <h4>Font size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3"></span>
+              <span class="font-size-4"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+        </div>
+
+        <!------------------ PRIMARY COLORS -------------------->
+        <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+        </div>
+
+        <!------------------ BACKGROUND COLOR ---------------->
+        <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5>Dim</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Lights Out</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
